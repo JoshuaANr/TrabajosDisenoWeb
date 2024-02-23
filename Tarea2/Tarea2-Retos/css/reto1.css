@@ -1,0 +1,13 @@
+.linea {
+    border: 4px solid red; /* Grosor de la línea */
+    margin-top: 0; /* Elimina el espacio superior */
+    margin-bottom: 5px;
+    width: 90px; /* Ancho de la línea */
+    opacity: 1;
+}
+
+.btn.custom {
+    border-radius: 0; /* Elimina los bordes redondos de los botones con la clase "custom" */
+}
+
+

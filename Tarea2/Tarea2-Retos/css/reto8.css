@@ -1,0 +1,32 @@
+.fondo{
+    background-image: url("../img/fondo.jpg");
+    overflow-x: hidden; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-fluid{
+    margin-top: 60px;
+    font-family: 'Merriweather', serif;
+}
+
+.container-fluid2{
+    color: rgb(217, 214, 214);
+}
+
+.titulo1 {
+    font-weight: bolder;
+    color: rgb(218, 213, 213);
+}
+
+.parrafo {
+    font-size: 30px;
+    color: rgb(218, 213, 213);
+}
+
+.carga{
+    width: 100px;
+    height: 100px;
+}
+

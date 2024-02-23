@@ -1,0 +1,44 @@
+.texto{
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo1{
+    font-weight: bolder;
+    font-size: 58px;
+}
+
+.titulo2{
+    font-weight: normal;
+}
+
+.icon {
+    font-size: 130px;
+    color: orange;
+}
+
+
+.color{
+    color: orange;
+}
+
+.container-fluid1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.coontainer-fluid2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn.custom{
+    padding: 20px;
+    color: #fff;
+    background-color: orange;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+

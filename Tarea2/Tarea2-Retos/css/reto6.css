@@ -1,0 +1,32 @@
+.banner {
+    background-image: url("../img/piano.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: a 3s ease infinite alternate;
+    background-color: #cecedd;
+    background-blend-mode: color-burn;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.160);
+}
+
+.container-fluid1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titulo1 {
+    font-weight: bolder;
+}
+
+.parrafo {
+    font-size: 30px;
+}
+
+.relleno{
+    margin-top: 200px;
+}
+
+footer{
+    margin-top: 200px;
+    padding-bottom: auto;
+}

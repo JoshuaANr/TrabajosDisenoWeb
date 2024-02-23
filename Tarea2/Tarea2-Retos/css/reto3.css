@@ -1,0 +1,16 @@
+.titulo1{
+    font-weight: bolder;
+}
+
+.linea {
+    border: 1px solid red; /* Grosor de la línea */
+    margin-top: 0; /* Elimina el espacio superior */
+    margin-bottom: 5px;
+    width: 80px; /* Ancho de la línea */
+    opacity: 1;
+    margin: 0 10px;
+}
+
+.icon {
+    color: #0C3E82;
+}
