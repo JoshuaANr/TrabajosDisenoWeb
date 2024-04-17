@@ -1,0 +1,710 @@
+/* ----------------  Menú - Menú Hamburguesa  ----------------*/
+
+/*********************  MENU PRINCIPAL ******************************/
+
+@media (max-width: 576px) {
+    .logoM {
+        margin-right: -50px;
+    }
+
+}
+
+.fondoM {
+    background-color: #1b1b1b; /*9e9995*/
+    box-shadow: 5px 5px 8px #666565;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tM {
+    text-shadow: 0 0 10px #ffffff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.logoM {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: #8a8a8a;
+    transition: all 1s solid;
+    border-radius: 20px;
+}
+
+.optmenu:active {
+    background-color: rgb(84, 82, 129);
+    border-radius: 20px;
+}
+
+.logo img {
+    margin-left: 50px;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    margin-right: 10px;
+    border: 3px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #1b1b1b;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Header - Video/Banner  ----------------*/
+.container-fluid1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 576px) {
+    header p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .estrellastext {
+        font-size: 10px;
+    }
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+/* clases del video de fondo*/
+header {
+    /*altura fija vertical*/
+    height: 100vh;
+}
+
+header h1 {
+    text-shadow: 0 0 30px #fff;
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+
+header p {
+    font-size: 25px;
+    text-shadow: 0 0 30px #fff;
+}
+
+.boton {
+    text-shadow: 0 0 30px #fff;
+    background-color: inset 0 0 0 1000px rgb(138, 225, 193);
+    border-color: black;
+}
+
+.boton:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+    text-shadow: 0 0 30px #000000;
+}
+
+.icono {
+    font-size: 25px;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section 1 - Información General  ----------------*/
+
+.container-fluid2 {
+    margin-top: 40px;
+}
+
+.titulo1 {
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.titulop1 {
+    font-weight: bolder;
+    font-size: 14, 5px;
+    color: rgb(95, 94, 94);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.titulop2 {
+    font-size: 14, 5px;
+    color: rgb(95, 94, 94);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.estrellas {
+    width: 150px;
+    float: left;
+}
+
+.estrellastext {
+    margin-top: 25.8px;
+}
+
+.op {
+    text-decoration: none;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section 2 - Carousel Imagenes de Viajes en Helicoptero  ----------------*/
+
+.carouselI {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+
+/*tamaño de flechas*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+}
+
+
+/*color de flechas*/
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2398DE65' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2398DE65' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section 3 - Info General - Costos  ----------------*/
+
+.iTC {
+    color: #003c5e;
+    font-size: 50px;
+}
+
+.iTC2 {
+    font-size: 30px;
+}
+
+.iRegistro {
+    font-size: 50px;
+    color: #003c5e;
+}
+
+.infoG1 {
+    font-weight: bolder;
+}
+
+.imgCos {
+    width: 450px;
+    height: 420px;
+}
+
+.g {
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.iF {
+    font-size: 25px;
+}
+
+.pI {
+    font-size: 15px;
+    margin-left: 29px;
+}
+
+/************ TABLA DE PRECIOS ***************/
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price-table {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+
+.price-table:hover {
+    background-color: #003c5e;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    border: none;
+    box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+
+/*clases de los textos precio y dollar*/
+
+div.price {
+    font-size: 30px;
+    font-weight: 300;
+    color: #333c4d;
+}
+
+div.dollar {
+    vertical-align: top;
+    font-size: 17px !important;
+    display: inline-block;
+    margin-top: 15px;
+    color: #222;
+}
+
+.price-table:hover * {
+    color: #fff !important;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section 4 - Mapa  ----------------*/
+
+.titulajes {
+    color: #003c5e;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.punto {
+    margin-top: 30px;
+}
+
+.micro1 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+label {
+    color: #000;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  SectionBP - Banner con formato Parallax  ----------------*/
+.container-fluidBP{
+    background-image: url('../img/manhattan-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* permite que el fondo se mueva. A esto se le llama efecto parallax */
+    background-attachment: fixed;
+    height: 250px;
+}
+.container-fluidBP h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 25px;
+}
+
+@media (max-width: 576px) {
+    .container-fluidBP h2{
+        font-size: 25px;
+        padding-top: 25px;
+    }
+
+}
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  SectionSF - Sección Fotográfica con transiciones  ----------------*/
+
+.container-fluidSF {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.tituloSF {
+    color: #000;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 img {
+    width: 100% !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.imghvr-slide-down:hover {
+    background: #003c5e !important;
+}
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Section 5 - Video de Youtube e Info Adicional  ----------------*/
+
+label {
+    color: #000;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+    margin-bottom: 5px;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Section 6 - Formulario Principal  ----------------*/
+
+/* Para agregar un borde cuando se activan los campos */
+
+input:hover {
+    outline: 3px solid rgb(168, 211, 227);
+}
+
+textarea:hover {
+    outline: 3px solid rgb(168, 211, 227);
+}
+
+
+/* Propiedades de los campos */
+
+input,
+textarea {
+    cursor: pointer;
+    background-color: #e2e2e2 !important;
+}
+
+
+/* Propiedades de los botones */
+
+.enviar {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: rgb(39, 39, 39) !important;
+    border-radius: 15px;
+}
+
+.borrar {
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: rgb(39, 39, 39) !important;
+    border-radius: 15px;
+}
+
+
+/* validacion campo TextArea */
+
+textarea {
+    resize: none;
+}
+
+.espacio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.fondo {
+    background-color: #d6dbe3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.formP {
+    font-size: 1.5rem;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Section 7 - Calificaciones  ----------------*/
+
+.secOp {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.op {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.pO {
+    font-weight: lighter;
+    margin-top: 25px;
+}
+
+.pO2 {
+    font-weight: bolder;
+    margin-top: 20px;
+    color: rgb(157, 156, 156);
+    margin-left: 10px;
+}
+
+.numV {
+    font-weight: bolder;
+    margin-left: 35px;
+    font-size: 50px;
+}
+
+.estrellasV {
+    width: 250px;
+}
+
+.barraC {
+    width: 400px;
+    height: 250px;
+    margin-right: 200px;
+}
+
+.coment {
+    height: 550px;
+    width: 950px;
+}
+
+.fdI {
+    background: url('../img/manhattan-minBtn.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .coment {
+        height: 300px;
+        width: 400px;
+    }
+
+    .espBtn {
+        margin-top: 10px;
+    }
+
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section S - Iconografía de seguridad  ----------------*/
+
+.icon {
+    font-size: 100px;
+    color: #000000; /*#e37140;*/
+}
+
+.container-fluidS{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hS {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Section I - Formulario Informativo  ----------------*/
+
+.container-fluidI {
+    margin-top: 100px;
+}
+
+.iconInf {
+    font-size: 50px;
+    color: #000;
+}
+
+.iWh {
+    font-size: 50px;
+    color: #15d578;
+    border: #000;
+}
+
+.icon-container {
+    background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+    background-clip: text;
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño del icono */
+}
+
+.iIns {
+    color: transparent; /* Oculta el color del icono */
+    font-size: 50px;
+    border: #000;
+}
+
+.iFb {
+    font-size: 50px;
+    color: #1562d5;
+    border: #000;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Footer - Info Final  ----------------*/
+
+footer {
+    background-color: #d6dbe3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.mov {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.esp {
+    margin-right: 20px;
+}
+
+.desc {
+    width: 140px;
+    min-height: 100px;
+}
+
+.insta {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4);
+    border: none;
+    color: white;
+}
+
+.derechos {
+    font-weight: bolder;
+}
+
+i {
+    font-size: 25px;
+}
+
+/*CHAT WHATAPP
+
+.container-botonws {
+    background-color: #e4e4e4;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+} */
+
+
+/*efecto de animación imagen chat
+
+.botonws {
+    width: 60px;
+    transition: ease 1s;
+}
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}  */
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
