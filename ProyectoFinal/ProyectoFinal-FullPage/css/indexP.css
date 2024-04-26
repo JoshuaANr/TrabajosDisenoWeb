@@ -1,0 +1,461 @@
+/* ----------------  Menú - Menú Hamburguesa  ----------------*/
+
+/*********************  MENU PRINCIPAL ******************************/
+
+@media (max-width: 576px) {
+    .logoM {
+        display: none;
+    }
+
+
+}
+
+.fondoM {
+    background-color: rgba(43, 60, 49); /*9e9995 1b1b1b rgb(43, 60, 49);*/
+    box-shadow: 5px 5px 8px #666565;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tM {
+    text-shadow: 0 0 10px #ffffff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.logoM {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: #8a8a8a;
+    transition: all 1s solid;
+    border-radius: 20px;
+}
+
+.optmenu:active {
+    background-color: rgb(82, 129, 108);
+    border-radius: 20px;
+}
+
+.logo img {
+    margin-left: 50px;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    margin-right: 10px;
+    border: 3px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #1b1b1b;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Header - Video/Banner  ----------------*/
+.container-fluid1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 576px) {
+    header p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .estrellastext {
+        font-size: 10px;
+    }
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+/* clases del video de fondo*/
+header {
+    /*altura fija vertical*/
+    height: 100vh;
+}
+
+header h1 {
+    text-shadow: 0 0 30px rgb(64, 98, 75);
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+
+header p {
+    font-size: 25px;
+    text-shadow: 0 0 30px #fff;
+}
+
+.boton {
+    text-shadow: 0 0 30px #fff;
+    background-color: inset 0 0 0 1000px rgb(138, 225, 193);
+    border-color: black;
+}
+
+.boton:hover {
+    background-color: rgb(64, 98, 75);
+    border-color: black;
+    color: black;
+    text-shadow: 0 0 30px #000000;
+}
+
+.icono {
+    font-size: 25px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Section 1 - Inicial - Introducción  ----------------*/
+
+.container-fluid2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h1S1{
+    font-weight: bolder;
+}
+
+.imgt {
+    font-weight: bolder;
+    font-size: 70px;
+    background-image: url('../img/hojas-min.jpg'); /* Ruta de la imagen de fondo */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (Safari, Chrome, etc.) */
+    background-clip: text; /* Para otros navegadores */
+    color: transparent; /* Ocultar el color del texto */
+    -webkit-text-stroke: 2px; /* Grosor*/
+}
+
+@media (max-width: 576px) {
+    .imgt {
+        font-size: 50px;
+    }
+
+}
+
+.border-left-custom {
+    border-left: 2px solid rgb(215, 215, 215);
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section2 - Banner con formato Parallax  ----------------*/
+.container-fluid3{
+    background-image: url('../img/pino-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* permite que el fondo se mueva. A esto se le llama efecto parallax */
+    background-attachment: fixed;
+    height: 450px;
+}
+
+.container-fluid3 h5{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.espacioP {
+    padding-top: 50px;
+}
+
+.icon {
+    font-size: 100px;
+    color: #ffffff; /*#e37140;*/
+    margin-top: 100px;
+}
+
+
+@media (max-width: 576px) {
+    .container-fluid3 h5{
+        font-size: 20px;
+        padding-top: 0px;
+
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    .espacioP {
+        padding-top: 0px;
+    }
+
+}
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Section3 - Banner Triple - Habitaciones  ----------------*/
+
+.container-fluid4 {
+    height: 450px;
+}
+
+.imgBT1 {
+    background-image: url(../img/hab-sencilla-min.jpg);
+    height: 450px;
+}
+
+.imgBT2 {
+    background-image: url(../img/hab-doble-min.jpg);
+    height: 450px;
+}
+
+
+.imgBT3 {
+    background-image: url(../img/hab-triple-min.jpg);
+    height: 450px;
+}
+
+.espBT {
+    padding-top: 150px;
+}
+
+.espBT h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.espBT h3 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.botonBT {
+    text-shadow: 0 0 30px #fff;
+    background-color: inset 0 0 0 1000px rgb(138, 225, 193);
+    border-color: black;
+    color: white;
+}
+
+.botonBT:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: rgb(64, 98, 75);
+    text-shadow: 0 0 30px #000000;
+}
+
+
+/*
+.no-gutters .col-md-4 {
+    padding: 0; /* Eliminar relleno en las columnas 
+}
+
+.no-gutters .col-md-4 img {
+    width: 100%; /* Hacer que las imágenes ocupen todo el ancho de las columnas 
+    height: auto; /* Permitir que la altura se ajuste automáticamente según el ancho 
+}
+*/
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Section4 - Paquetes - Estadía  ----------------*/
+
+.container-fluid5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*background-image: url(../img/hojas-borde.jpg);*/
+    background-size: cover;
+}
+
+.h1Paquetes {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.pPaquetes {
+    font-size: 18px;
+}
+
+.imgInterlineado {
+    letter-spacing: 20px;
+    margin-bottom: 40px;
+}
+
+.container-border {
+    border-style: solid; /* Establece el estilo de borde como sólido */
+    border-width: 10px; /* Grosor del borde */
+    border-image: url('../img/hojas-min.jpg') 30 round; /* URL de la imagen de borde, tamaño de la imagen, método de repetición */
+    padding: 20px; /* Espacio interno para el contenido */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.botonPaquetes {
+    text-shadow: 0 0 30px #fff;
+    background-color: rgb(29, 113, 67);
+    border-color: black;
+    color: white;
+}
+
+.botonPaquetes:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: rgb(64, 98, 75);
+    text-shadow: 0 0 30px #000000;
+}
+
+.imgt2 {
+    font-weight: bolder;
+    font-size: 70px;
+    background-image: url('../img/hojas-min.jpg'); /* Ruta de la imagen de fondo */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit (Safari, Chrome, etc.) */
+    background-clip: text; /* Para otros navegadores */
+    color: transparent; /* Ocultar el color del texto */
+    -webkit-text-stroke: 2px; /* Grosor*/
+}
+
+@media (max-width: 576px) {
+    .imgt2 {
+        font-size: 50px;
+    }
+
+    .imgInterlineado {
+        letter-spacing: 0px;
+    }
+
+}
+
+.E1 {
+    margin-top: 156px;
+}
+
+.E2 {
+    margin-top: 97px;
+}
+
+
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+
+/* ----------------  Section 5 - Más Información  ----------------*/
+
+.sectionList {
+    margin-bottom: 70px;
+}
+
+.sectionList h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*grupo de listas*/
+
+.lista {
+    background-color: #e8f5ef;
+}
+
+.lista:hover {
+    color: rgb(64, 98, 75);
+    background-color: #e4e4e4;
+    border-color: rgb(64, 98, 75);
+    border-width: 2px;
+}
+
+.listCol {
+    background-color: rgb(102, 125, 109);
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Footer - Info Final  ----------------*/
+
+footer {
+    background-color: rgb(137, 162, 145); /*#d6dbe3*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*border-top-left-radius: 20px;
+    border-top-right-radius: 20px;*/
+}
+
+.mov {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.esp {
+    margin-right: 20px;
+}
+
+.desc {
+    width: 140px;
+    min-height: 100px;
+}
+
+.insta {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4);
+    border: none;
+    color: white;
+}
+
+.derechos {
+    font-weight: bolder;
+}
+
+i {
+    font-size: 25px;
+}
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+

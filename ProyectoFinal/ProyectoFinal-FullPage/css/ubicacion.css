@@ -1,0 +1,319 @@
+/* ----------------  Menú - Menú Hamburguesa  ----------------*/
+
+/*********************  MENU PRINCIPAL ******************************/
+
+@media (max-width: 576px) {
+    .logoM {
+        display: none;
+    }
+
+
+}
+
+.fondoM {
+    background-color: rgba(43, 60, 49);
+    /*9e9995 1b1b1b rgb(43, 60, 49);*/
+    box-shadow: 5px 5px 8px #666565;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tM {
+    text-shadow: 0 0 10px #ffffff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.logoM {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: #8a8a8a;
+    transition: all 1s solid;
+    border-radius: 20px;
+}
+
+.optmenu:active {
+    background-color: rgb(82, 129, 108);
+    border-radius: 20px;
+}
+
+.logo img {
+    margin-left: 50px;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    margin-right: 10px;
+    border: 3px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #1b1b1b;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+/* ----------------  Header - Banner Parallax  ----------------*/
+.container-fluid1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url('../img/bannerUbi-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* permite que el fondo se mueva. A esto se le llama efecto parallax */
+    background-attachment: fixed;
+    height: 650px;
+    margin-bottom: 0;
+}
+
+/* clases del video de fondo*/
+header {
+    /*altura fija vertical*/
+    height: 100vh;
+}
+
+
+
+@media (max-width: 576px) {
+    header p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .estrellastext {
+        font-size: 10px;
+    }
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+
+
+header h1 {
+    text-shadow: 0 0 30px rgb(64, 98, 75);
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+header p {
+    font-size: 25px;
+    text-shadow: 0 0 30px #fff;
+    color: #ffffff;
+}
+
+.boton {
+    text-shadow: 0 0 30px #fff;
+    background-color: #fff;
+    /*background-color: inset 0 0 0 1000px rgb(138, 225, 193);*/
+    border-color: black;
+}
+
+.boton:hover {
+    background-color: rgb(64, 98, 75);
+    border-color: black;
+    color: black;
+    text-shadow: 0 0 30px #000000;
+}
+
+.icono {
+    font-size: 25px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+
+/* ----------------  Section 1 y 2 - Inicial - Cómo llegar  ----------------*/
+
+.container-fluid2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-fluid3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.espTrans {
+    letter-spacing: 1px;
+}
+
+.h2In {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 2px; /* Grosor*/
+    letter-spacing: 6px;
+}
+
+
+.border-left-custom {
+    border-left: 2px solid rgb(215, 215, 215);
+}
+
+.imgTam {
+    height: 400px;
+    width: 500px;
+    margin-top: 60px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+@media (max-width: 576px) {
+    .imgTam {
+        height: 200px;
+        width: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .h2In {
+        font-size: 35px;
+    }
+
+    .espTrans {
+        letter-spacing: 0px;
+    }
+
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Sección de Mapa  ----------------*/
+.h1Map {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 2px; /* Grosor*/
+    letter-spacing: 6px;
+}
+
+.micro1 {
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+/* ----------------  Sección de Información  ----------------*/
+
+.container-fluid4 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.h1Fa {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 2px; /* Grosor*/
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+    .h1Fa {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
+
+
+
+/* ----------------  Footer - Info Final - Clip Path  ----------------*/
+
+footer {
+    background-color: rgb(137, 162, 145);
+    /*#d6dbe3*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mov {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.esp {
+    margin-right: 20px;
+}
+
+.desc {
+    width: 140px;
+    min-height: 100px;
+}
+
+.insta {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4);
+    border: none;
+    color: white;
+}
+
+.derechos {
+    font-weight: bolder;
+}
+
+i {
+    font-size: 25px;
+}
+
+
+/* ----------------  ------------------------------------------------------------------------------  ----------------*/
